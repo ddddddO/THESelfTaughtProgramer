@@ -18,16 +18,15 @@ while True:
     if mozi == "q":
         print("終了")
         break
-    else:
-        try:
-            num = int(mozi)
-            if num in seikai:
-                print("正解")
-                break
-            else:
-                print("不正解")
-        except ValueError:
-            print("数字か'q'を入力してね")
+    try:
+        num = int(mozi)
+        if num in seikai:
+            print("正解")
+            break
+        else:
+            print("不正解")
+    except ValueError:
+        print("数字か'q'を入力してね")
 
 #5
 a_list = [8, 19, 148, 4]
