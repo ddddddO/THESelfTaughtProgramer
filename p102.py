@@ -11,6 +11,7 @@ print("私は昨日{}を書いて、{}に送った！".format(s1, s2))
 #3
 sentence0 = "aldous hu was born..."
 print(sentence0.capitalize())
+print(sentence0.title())
 
 #4
 sentence1 = "どこで？　だれが？　いつ？"
