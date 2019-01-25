@@ -6,4 +6,8 @@ app = Flask(__name__)
 def hello():
     return 'hello, World!'
 
+@app.route('/health')
+def health():
+    return 'health ok!'
+
 app.run(port=8887)
